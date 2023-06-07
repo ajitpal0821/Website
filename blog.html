@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="favicon.jfif" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Poppins:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html" ><img src="https://studentcorner.epsiindia.org/upload/college/TI_LOGO.png" alt=""></a>
+            <h4>Thapar Institute</h4>
+            <div class="links" id="linkid">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+      <h1> Our Certificate & Online Program For 2022</h1>
+    </section>
+<!-- blog page -->
+    <section class="blog-contact">
+        <div class="row">
+            <div class="blog-left">
+                <img src="https://thumbs.dreamstime.com/b/my-diploma-close-up-folded-hand-female-graduate-54889815.jpg" alt="">
+                
+                <h2>Our Certificate & Online Program For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ut id eligendi modi ea ipsam quam deserunt amet corporis magni quscipit ipsa saepe. Non esse, totam vero explicabo aspernatur recusandae?
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odit, nulla possimus ipsum perspiciatis laudantium hic animi ipsa sed? Quas architecto minus porro distinctio perspiciatis culpa, in deleniti aspernatur eveniet et aut blanditiis quam?
+                </p><br>
+                <p>
+                    Lorem ipsum dolor sit amet coque quidem sunt, quia aliquid eveniet facilis ducimus velit voluptatibus nisi expedita. Sunt non quaerat velit alias nostrum.
+                </p>
+                    <br><p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi, nam dolorum quam quos corporis odit temporibus repellendus voluptatibus cupiditate assumenda sint iste magni vel deserunt. Deserunt doloremque corporis, ipsum iste saepe dolore accusamus tempora quam exercitationem ex veniam sint?
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                   <form class="comment-form">
+                    <input type="text" placeholder="Enter Name" >
+                    <input type="text" placeholder="Email Id"> 
+                    <textarea  rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="button"> POST COMMENT</button>        
+                </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business  Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Research</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="Footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet..<br> Quos totam dolore nulla eligendi sequi harum sint repelt aut. At?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made By <i class="fa fa-heart-o"></i>AJITPAL</p>
+    </section>
+    <!-- javascripts for toggle menu -->
+    <script>
+        var linkid=document.getElementById("linkid");
+        function showmenu(){
+            linkid.style.right="0";
+        }
+        function hidemenu(){
+            linkid.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
